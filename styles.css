@@ -33,8 +33,8 @@ p {
 
 form {
   width: 90vw;
-  max-width: 1000px;
-  min-width: 700px;
+  max-width: 700px;
+  min-width: 400px;
   margin: 0 auto;
   background-image: linear-gradient(#000000ff, #00000000);
   font-size: 1.1rem;
