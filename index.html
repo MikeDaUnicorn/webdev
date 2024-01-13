@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Survey</title>
+  <link rel="stylesheet" href="styles.css" />
+  </meta>
+  <body class="hero-image">
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    <h1 id="title">SIGN UP</h1>
+    <p id="description">Tell us a about yourself</p>
+      <fieldset class="fieldset1">
+        <label for="name" id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="Enter your full name" required />
+        <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+        <label for="number" id="number-label">Age:</label>
+        <input id="number" type="number" min="18" max="120" placeholder="Minimum 18+" required />
+        <label for="dropdown" id="dropdown-label">Gender:</label> 
+        <select id="dropdown" required>
+          <option value="">Choose gender</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+      </fieldset>
+      <fieldset class="fieldset2">
+        <legend><b>How did you hear about us?</b></legend>
+        <label for="social"><input type="radio" id="social" name="radio" value="Social" class="inline" /> Social media</label>
+        <label for="ads"><input type="radio" id="ads" name="radio" value="ads" class="inline" /> Advertisement</label>
+        <label for="yt"><input type="radio" id="yt" name="radio" value="YT" class="inline" /> YouTube</label>
+        <label for="word"><input type="radio" id="word" name="radio" value="word" class="inline" /> Word of mouth</label>
+        <label for="other" id="other-label"><input type="radio" id="other" name="radio" value="Other" class="inline" /> Other</label>
+      </fieldset>
+      <fieldset class="fieldset3">
+        <legend><b>Favorite game genres:</b></legend>
+          <label for="action"><input type="checkbox" value="action" id="action" class="inline" /> Action
+          </label>
+          <label for="adventure"><input type="checkbox" value="adventure" id="adventure" class="inline" /> Adventure
+          </label>
+          <label for="battle-royale"><input type="checkbox" value="battle-royale" id="battle-royale" class="inline" /> Battle Royale
+          </label>
+          <label for="fighting"><input type="checkbox" value="fighting" id="fighting" class="inline" /> Fighting
+          </label>
+          <label for="fps"><input type="checkbox" value="fps" id="fps" class="inline" /> FPS
+          </label>
+          <label for="racing"><input type="checkbox" value="racing" id="racing" class="inline" /> Racing
+          </label>
+          <label for="rts"><input type="checkbox" value="rts" id="rts" class="inline" /> RTS
+          </label>
+          <label for="simulation"><input type="checkbox" value="simulation" id="simulation" class="inline" /> Simulation
+          </label>
+          <label for="sport"><input type="checkbox" value="sport" id="sport" class="inline" /> Sports
+          </label>
+      </fieldset>
+      <fieldset class="fieldset4">
+        <label><b>Tell us</b>
+          <textarea rows="4" cols="30" placeholder="what games are you looking forward to? (optional)"></textarea>
+        </label>
+        <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
